@@ -14,7 +14,7 @@ function! LoadTemplate()
 	%s/%START%//g
 endfunction
 
-autocmd BufNewFile * call LoadTemplate()
+autocmd BufNewFile *.py,*.sh call LoadTemplate()
 
 " python env
 autocmd FileType python setlocal et sta sw=4 sts=4 number 
