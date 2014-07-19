@@ -14,8 +14,7 @@ install_plugin () {
 	local plugin=$1
 	local cmd=$2
 	
-	echo "Do you want to install $plugin?(yes[Y] or no[N])"
-	read ANS
+	read -p "Do you want to install $plugin?(yes[Y] or no[N])" -t 30 ANS
 	case "$ANS" in
 	       Y | y | yes | YES)
 			bash -c "$cmd"
