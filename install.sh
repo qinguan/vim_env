@@ -50,7 +50,7 @@ install () {
 
 	# http://www.vim.org/scripts/script.php?script_id=2914
 	pep8_cmd="pip install -i http://pypi.douban.com/simple/ pep8"
-	pep8_cmd=$pep8_cmd" && mkdir -p ~/.vim/ftplugin/ && mv ./ftplugin/pep8.vim ~/.vim/ftplugin/pep8.vim"
+	pep8_cmd=$pep8_cmd" && mkdir -p ~/.vim/ftplugin/python/ && mv ./ftplugin/pep8.vim ~/.vim/ftplugin/python/pep8.vim"
 	install_plugin "pep8" $pep8_cmd
 }
 
