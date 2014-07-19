@@ -1,5 +1,8 @@
 filetype plugin indent on
 
+"粘贴时关闭缩进
+set pastetoggle=<F9>
+
 " TEMPLATES
 function! LoadTemplate()
 	" load a template based on the file extension
