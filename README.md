@@ -21,3 +21,10 @@ vim_env
 ### Enable python autoComplete
 	$ vim test.py
 	$ Ctrl+x,Ctrl+o
+
+### Enable snippets
+	$ mv ./snipMate.zip ~/.vim/
+	$ cd ~/.vim 
+	$ unzip snapMate.zip 
+it will override exist files/directory in ~/.vim/ .
+
