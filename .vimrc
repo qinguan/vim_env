@@ -2,7 +2,7 @@ filetype plugin indent on
 
 " python env
 autocmd FileType python setlocal et sta sw=4 sts=4
-autocmd BufNewFile *.py 0r ~/.vim/skeleton/skeleton_python.py
+autocmd BufNewFile *.py 5r ~/.vim/skeleton/skeleton_python.py
 
 " Add the virtualenv's site-packages to vim path
 py << EOF
@@ -18,4 +18,4 @@ EOF
 
 
 " bash env
-autocmd BufNewFile *.sh 0r ~/.vim/skeleton/skeleton_shell.sh
+autocmd BufNewFile *.sh 5r ~/.vim/skeleton/skeleton_shell.sh
