@@ -22,7 +22,12 @@ vim_env
 	$ vim test.py
 	$ Ctrl+x,Ctrl+o
 
+### Enable python pep8 check
+	http://www.vim.org/scripts/script.php?script_id=2914
+	Just press fn+F5 to check python under Mac OSX.	
+
 ### Enable snippets
+	http://www.vim.org/scripts/script.php?script_id=2540
 	$ mv ./snipMate.zip ~/.vim/
 	$ cd ~/.vim 
 	$ unzip snapMate.zip 
