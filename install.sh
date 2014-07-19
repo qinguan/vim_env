@@ -5,8 +5,8 @@
 
 
 install_base () {
-	make -p ~/.vim
-	cp -R ./skeleton ~/.vim/
+	make -p ~/.vim/skeleton
+	cp -R ./skeleton/* ~/.vim/skeleton/
 	cp .vimrc ~/.vimrc
 }
 
