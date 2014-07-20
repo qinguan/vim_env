@@ -1,5 +1,5 @@
+# -*- coding: utf-8 -*-
 #!/usr/bin/env python2.7
-# vim:fileencoding=UTF-8
 
 # FileName: %FILENAME%
 # Created: %DATE%
